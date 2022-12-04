@@ -5,7 +5,8 @@
     <meta name="ipfs rules" content="btc"/>
     <meta name="description" content="IPFS BITCOIN and decentralized playground of all the things the commercial internet sucsk at. Welcome!" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="https://ipfs.io/ipfs/QmbwFCnh5DPfz1czZ1YGQmRJNqkASVKFhkc9ThxkhD2HP8?filename=styles.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <!-- <link href="https://ipfs.io/ipfs/QmbwFCnh5DPfz1czZ1YGQmRJNqkASVKFhkc9ThxkhD2HP8?filename=styles.css" rel="stylesheet" defer/> -->
   </head>
   <body>
     <div class="wrapBody">
@@ -13,6 +14,7 @@
       <h1>Demo Awesome Page</h1>
     </header>
     <main>
+      <div id="inheritHeight">
       <div id="mainImgContainer">
         <div class="imgContainer">
           <img />
@@ -30,14 +32,21 @@
           <img />
         </div>
       </div>
+      </div>
       <div class="blackdivider">
         <span>About</span>
       </div>
       <div id="maintextcontainer">
-        <p id="mainbodytext">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et varius nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi lacinia tortor arcu, at commodo mi egestas eget. Quisque posuere mi ac ullamcorper sagittis. Pellentesque sed scelerisque elit. Cras dictum feugiat felis sollicitudin dignissim. Curabitur lorem erat, egestas eu sapien non, vehicula pulvinar eros. Donec nisl mi, hendrerit ac tortor nec, vehicula pellentesque dolor. Vestibulum ut arcu nec est pretium porttitor sit amet eu augue. Fusce sit amet lacus orci. Cras vitae porta est. In auctor mi dolor. Cras consequat, enim et pharetra ullamcorper, eros enim dictum orci, eu eleifend velit libero non elit.
-          Aenean molestie neque quis pellentesque luctus. Sed vestibulum iaculis consequat. Mauris in lectus ultrices, interdum sapien eu, hendrerit diam. Nam sollicitudin augue sed facilisis suscipit. Morbi bibendum ornare nisl. Suspendisse potenti. Etiam non euismod sapien. Mauris finibus vitae elit vitae ornare. Vivamus pellentesque commodo ipsum vel varius. Curabitur ut nisl vehicula, sollicitudin erat sed, blandit orci.
-        </p>
+        <div class = "splitText">
+          <p class = "mainbodytext">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et varius nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi lacinia tortor arcu, at commodo mi egestas eget. Quisque posuere mi ac ullamcorper sagittis. Pellentesque sed scelerisque elit. Cras dictum feugiat felis sollicitudin dignissim. Curabitur lorem erat, egestas eu sapien non, vehicula pulvinar eros. Donec nisl mi, hendrerit ac tortor nec, vehicula pellentesque dolor. 
+          </p>
+        </div>
+        <div class = "splitText">
+          <p class = "mainbodytext">
+            Vestibulum ut arcu nec est pretium porttitor sit amet eu augue. Fusce sit amet lacus orci. Cras vitae porta est. In auctor mi dolor. Cras consequat, enim et pharetra ullamcorper, eros enim dictum orci, eu eleifend velit libero non elit. Aenean molestie neque quis pellentesque luctus. Sed vestibulum iaculis consequat. Mauris in lectus ultrices, interdum sapien eu, hendrerit diam. Nam sollicitudin augue sed facilisis suscipit. Morbi bibendum ornare nisl. Suspendisse potenti. Etiam non euismod sapien. Mauris finibus vitae elit vitae ornare. Vivamus pellentesque commodo ipsum vel varius. Curabitur ut nisl vehicula, sollicitudin erat sed, blandit orci.
+          </p>
+        </div>
       </div>
     </main>
     <footer>
